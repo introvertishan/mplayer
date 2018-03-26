@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+Font-end :
 
-You can use the [editor on GitHub](https://github.com/introvertishan/mplayer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+	1. Download all the files from :-
+		https://github.com/introvertishan/angularjs_mplayer
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	2. Put the downloaded file under a server eg: Apache
 
-### Markdown
+	3. Browse to the index.html page.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	You must see a page with loader and music player.
 
-```markdown
-Syntax highlighted code block
+Back-end:
 
-# Header 1
-## Header 2
-### Header 3
+	1. Download the files from :
+		https://github.com/introvertishan/mplayer, skip 'media/songs' folder as you will be adding the songs on your own.
 
-- Bulleted
-- List
+	2. Download create a DB in your PostgreSQL DB.
 
-1. Numbered
-2. List
+	3. Enter the name of the table and username and password in setting.py of the project.
 
-**Bold** and _Italic_ and `Code` text
+	4. Make sure django-rest-framework and psycopg is installed else install it using pip.
 
-[Link](url) and ![Image](src)
-```
+	5. Make migrations and migrate.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+	6. Create super user.
 
-### Jekyll Themes
+	7. Run the server.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/introvertishan/mplayer/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+	8. Login to Django-admin Dashboard and add songs by clicking on All songs under API.
 
-### Support or Contact
+	9. To create a new user click on Users under AUTHENTICATION AND AUTHORIZATION
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+	10. Refresh your index.html page and you will be able to See all the songs added.
