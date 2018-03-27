@@ -7,6 +7,7 @@ from .models import *
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated,AllowAny
 from django.contrib.auth.models import User
+from .pagination import songPagination
 
 # Create your views here.
 class login(APIView):
@@ -38,6 +39,7 @@ class getAllSongs(generics.ListAPIView):
     permission_classes = [IsAuthenticated]
     serializer_class = allSongsSerializer
     authentication_classes = (TokenAuthentication,)
+    pagination_class = songPagination
 
 class getAllPlaylist(generics.ListCreateAPIView):
 

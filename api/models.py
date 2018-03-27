@@ -8,6 +8,9 @@ class allSongs(models.Model):
     artists = models.CharField(max_length=255, blank=False)
     song_url = models.FileField(upload_to = 'songs',blank=False,validators=[FileExtensionValidator(allowed_extensions=['mp3'])])
 
+    class Meta:
+        ordering = ['id']
+
     def __str__(self):
         return "{}".format(self.title)
 
