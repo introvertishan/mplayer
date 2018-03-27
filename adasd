@@ -1,0 +1,30 @@
+[33mcommit a62bc861b2231bfaedf0a94ce27d52b6328c34e3[m
+Author: Ishan Yadav <intrapersonal.ishan@gmail.com>
+Date:   Mon Mar 26 14:59:15 2018 +0530
+
+    Update README.md
+
+[33mcommit c2d9347b0994c3bafca588f224ceddcf90d924c6[m
+Author: Ishan Yadav <intrapersonal.ishan@gmail.com>
+Date:   Mon Mar 26 14:58:13 2018 +0530
+
+    Set theme jekyll-theme-minimal
+
+[33mcommit 8ebbdae38dac848800246f9f8b0b25d0c6e4fa2e[m
+Merge: c6eb325 14fa078
+Author: Ishan <intrapersonal.ishan@gmail.com>
+Date:   Mon Mar 26 14:29:37 2018 +0530
+
+    Merge branch 'master' of https://github.com/introvertishan/mplayer
+
+[33mcommit c6eb325f7531e7e58eb35d5317a8308eada77a77[m
+Author: Ishan <intrapersonal.ishan@gmail.com>
+Date:   Mon Mar 26 14:27:22 2018 +0530
+
+    first commit
+
+[33mcommit 14fa078bf803c148b5472c7dd06a17c63503beca[m
+Author: Ishan Yadav <intrapersonal.ishan@gmail.com>
+Date:   Mon Mar 26 14:26:25 2018 +0530
+
+    Initial commit
